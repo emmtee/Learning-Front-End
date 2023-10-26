@@ -1,0 +1,81 @@
+
+
+button {
+    background-color: #84a98c;
+    font-size: 30px;
+}
+
+h1,
+h2 {
+    color: #2f3e46;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#register {
+    background-color: #354f52;
+    color: #fdfcdc;
+}
+
+span {
+    color: #390099;
+}
+
+.tag {
+    background-color: #d62828;
+    color: white;
+}
+
+.post a {
+  color:  #390099;
+  text-decoration: none;
+}
+footer a 
+{
+     color: #d62828;
+}
+h2 + button{
+    font-size: 15px;
+}
+footer > a
+{
+    color: #f07167;
+}
+input[type = "password"]
+{
+    color: red;
+}
+a[href *= "google"]
+{
+    color: magenta;
+}
+.post button:hover
+{
+    background-color: #3a5a40;
+    color:#fdfcdc;
+}
+
+.post a:hover
+{
+    font-weight: 700;
+    text-decoration: underline;
+}
+.post button:active
+{
+    background-color: #2b2d42;
+}
+.post:nth-of-type(2n)
+{
+    background-color: #b8bedd;
+}
+h2::first-letter
+{
+    font-size: 50px;
+}
+p::first-line
+{
+    color: #f07167;
+}
+p::selection
+{
+    background-color: #660708;
+}
